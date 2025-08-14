@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>📝 Online Code Editor with 🎤 Voice Assistant</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>📝 Online Code Editor with 🎤 Voice Assistant</h1>
+
+    <label>Choose Language: </label>
+    <select id="language">
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="cpp">C++</option>
+        <option value="c">C</option>
+        <option value="javascript">JavaScript</option>
+        <option value="html">HTML/CSS/JS</option>
+    </select>
+
+    <textarea id="codeArea" placeholder="Type your code..."></textarea>
+    <input id="userInput" placeholder="Enter runtime input...">
+    
+    <div id="suggestion">💡 AI Suggestion:</div>
+    <button onclick="startVoiceAssistant()">🎤 Start Voice Assistant</button>
+    <button onclick="runCode()">▶ Run Code</button>
+
+    <h3>Output:</h3>
+    <div id="output"></div>
+
+    <h3>🌐 Live Preview (HTML/CSS/JS):</h3>
+    <iframe id="livePreview"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -71,7 +71,9 @@ Command	Action
 - "Clear editor"	- Removes all text
 - "Read my code"	- Reads editor content aloud
 
-🔮 Future Improvements
+---
+
+## 🔮 Future Improvements
 - 🤖 AI-based code completion & debugging
 - ☁ Cloud save for projects
 - 📂 Multi-file project support
